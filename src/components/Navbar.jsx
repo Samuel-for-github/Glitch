@@ -1,21 +1,22 @@
 import React from 'react';
+import logo from '../assets/logo.png'
 import '../styles/componentsStyles/navbar.css'
 
 const Navbar = () => {
     return (
         <nav className="nav">
-            <div>
-                <p>Logo</p>
+            <div className="logo-container">
+                <img src={logo} alt="Logo" className="logo" />
             </div>
             <ul className="list">
-                <li>Home</li>
-                <li>Contact Us</li>
-                <li>About Us</li>
-                <li>Colleges</li>
-                <li>Companies</li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Colleges</a></li>
+                <li><a href="">Companies</a></li>
             </ul>
-            <div>
-                <p>Login</p>
+            <div className="login">
+                <button>Login</button>
             </div>
         </nav>
     );
