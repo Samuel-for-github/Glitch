@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <h1>
-        Hello, Vite + React!
+        Glitch
       </h1>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis quam omnis eveniet praesentium ratione dolor aspernatur? Veniam quam dolorem quo.</p>
     </>
