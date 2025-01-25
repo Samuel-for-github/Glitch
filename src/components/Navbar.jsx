@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import logo from '../assets/logo.png'
 import '../styles/componentsStyles/navbar.css'
 
+import {useNavigate} from "react-router-dom";
+import loginContext from "../context/LoginContext.js";
 const Navbar = () => {
+    const {setAllowLogin} = useContext(loginContext)
     return (
         <nav className="nav">
             <div className="logo-container">
@@ -16,7 +19,7 @@ const Navbar = () => {
                 <li><a href="">Companies</a></li>
             </ul>
             <div className="login">
-                <button>Login</button>
+                <button onClick={()=>setAllowLogin(true)}>Login</button>
             </div>
         </nav>
     );

@@ -1,11 +1,16 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import '../styles/componentsStyles/hero.css'
 import img1 from "../assets/images/img1.png"
 import img2 from "../assets/images/img2.png"
 import img3 from "../assets/images/img3.png"
 import img4 from "../assets/images/img4.png"
+import Navbar from "./Navbar.jsx";
+import loginContext from "../context/LoginContext.js";
+
 const Hero = () => {
+
     return (
+        <main>
         <div className="container">
             <div className="main-box">
                 <div className="mainText">
@@ -29,6 +34,7 @@ const Hero = () => {
                 <img style={{position: "absolute", top: 700, right: 250}} src={img4} alt="img1"/>
             </div>
         </div>
+        </main>
     );
 };
 

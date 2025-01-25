@@ -1,11 +1,14 @@
 .form-container {
+    position: absolute;
+    top: 300px;
     width: 100%;
-    height: 100vh;
+    /*height: 100vh;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f5f5f5;
+  z-index: 1;
+
 }
 h1 {
     display: block;
@@ -13,41 +16,45 @@ h1 {
     text-align: center;
     color: purple;
 }
-
+.space{
+    padding-inline: 190px;
+}
 .form{
     display: block;
     /* flex-direction: column; */
     justify-content: center;
     /* align-items: center; */
     max-width: 50%;
-    padding: 20px 180px;
+    padding-top: 20px;
+    padding-inline: 13rem;
+    /*padding: 20px 180px;*/
     padding-bottom: 50px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .form-input {
-  width: 100%;
-  padding: 10px ;
-  margin: 10px 0;
-  border: 1px solid black;
-  border-radius: 5px;
-  background-color: #c185bc7b;
+    width: 100%;
+    padding: 10px ;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #c185bc7b;
 }
 
 .form-btn {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid black;
-  border-radius: 5px;
-  background-color: purple;
-  color: #fff;
-  cursor: pointer;
-  text-align: center;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: purple;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
 }
 
 .form-btn:hover {
-  background-color: #bc6fa9;
+    background-color: #bc6fa9;
 }

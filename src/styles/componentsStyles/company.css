@@ -1,0 +1,54 @@
+.company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: #ba00f8;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+
+}
+
+.box{
+    padding: 50px 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 30px;
+    background-color: #2707f4;
+}
+
+p{
+    font-size: 24px;
+    color: #fff;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.yellow{
+    color: goldenrod;
+}
+
+.button-s{
+    display: block;
+    width: 9rem;
+    padding: 10px;
+    margin: 10px 0;
+    margin-top: 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    background-color: purple;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
