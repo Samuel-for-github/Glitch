@@ -1,4 +1,4 @@
-.company{
+.company {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,15 +7,14 @@
     background-color: #ba00f8;
 }
 
-.grid{
+.grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
-
 }
 
-.box{
-    padding: 50px 50px;
+.box {
+    padding: 50px;
     border: 1px solid black;
     border-radius: 5px;
     margin: 10px;
@@ -23,32 +22,31 @@
     background-color: #2707f4;
 }
 
-p{
+p {
     font-size: 24px;
     color: #fff;
 }
 
-h1{
+h1 {
     color: #fff;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.yellow{
+.yellow {
     color: goldenrod;
 }
 
-.button-s{
-    display: block;
+.button-s {
+    display: inline-block;
     width: 9rem;
     padding: 10px;
-    margin: 10px 0;
-    margin-top: 2rem;
+    margin: 2rem 0 10px;
     border: 1px solid black;
-    border-radius: 5px;
-    border-bottom-left-radius: 0px;
+    border-radius: 5px 5px 0 5px;
     background-color: purple;
     color: #fff;
     cursor: pointer;
     text-align: center;
+    text-decoration: none; /* Prevent button-like links from underlining */
 }

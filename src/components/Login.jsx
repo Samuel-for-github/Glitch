@@ -7,17 +7,17 @@ const Login = () => {
   return (
     <div className="form-container">
         <form className="form">
-            <div >
+            <div>
         <IoArrowBackCircleOutline style={{left: 500, position:"absolute"}} size={34} onClick={()=>setAllowLogin(false)}  />
             </div>
             <span className="space"></span>
-            <h1>Login</h1>
+            <h1 className="fh1">Login</h1>
             <label htmlFor="email ">Email</label> <br/>
             <input type="email" id="email" name="email" placeholder="email" className="form-input"/> <br/>
             <label htmlFor="password">Password</label> <br/>
             <input type="password" id="password" name="password" placeholder="password" className="form-input"/><br/>
             <button type="submit" className="form-btn">LOGIN</button>
-            <p>Already have an account?</p><span onClick={()=>{
+            <p style={{color: 'black'}}>Already have an account?</p><span onClick={()=>{
                 setAllowLogin(false)
                 setAllowSignup(true)
         }}>Sign Up</span>

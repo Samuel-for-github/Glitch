@@ -6,7 +6,7 @@ const Company = () => {
         <>
             <div className="company">
                 <div>
-                    <h1>Digitilize Your Campuse <span className="yellow">Placements</span></h1>
+                    <h1>Digitalize Your Campus <span className="yellow">Placements</span></h1>
                     <p>Seamless campus Placements Automation, perfected for <br /> universities across the globe</p>
                     <button className="button-s">Get Started</button>
                 </div>
