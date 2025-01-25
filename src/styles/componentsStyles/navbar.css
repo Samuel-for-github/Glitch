@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
 .nav {
     display: flex;
     justify-content: space-between;
-    background-color: blueviolet;
+    background-color: #B500DE;
     padding: .8rem;
     padding-bottom: 6px;
 }
@@ -21,6 +23,7 @@
     margin-right: 2rem;
     margin-top: 7px;
     color: white;
+    font-family: "Readex Pro", serif;
 }
 .logo {
     color: white;
