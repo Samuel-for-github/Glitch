@@ -4,10 +4,13 @@ import './styles/index.css'
 import App from './App.jsx'
 import LoginProvider from "./context/LoginProvider.jsx";
 import LoginContext from "./context/LoginContext.js";
+import {BrowserRouter} from "react-router-dom";
 createRoot(document.getElementById('root')).render(
   <StrictMode>
 <LoginProvider>
+    <BrowserRouter>
     <App />
+    </BrowserRouter>
 </LoginProvider>
 
   </StrictMode>,
