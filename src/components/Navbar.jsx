@@ -1,15 +1,10 @@
 import React, {useContext} from 'react';
 import logo from '../assets/logo.png'
 import '../styles/componentsStyles/navbar.css'
-
-import {useNavigate} from "react-router-dom";
 import loginContext from "../context/LoginContext.js";
 const Navbar = () => {
     const {setAllowLogin} = useContext(loginContext)
-    const navigate = useNavigate();
-    const company = ()=>{
-        navigate("/company")
-    }
+
     return (
         <nav className="nav">
             <div className="logo-container">
