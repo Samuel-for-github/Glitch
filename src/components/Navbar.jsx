@@ -18,9 +18,9 @@ const Navbar = () => {
                 <img src={logo} alt="Logo" className="logo" />
             </div>
             <ul className="list">
-                <li><a href="/">Home</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">About Us</a></li>
+                <li><a onClick={()=>navigate("/")}>Home</a></li>
+                <li><a>Contact Us</a></li>
+                <li><a>About Us</a></li>
                 <li><a onClick={colleges} style={{cursor: "pointer"}}>Colleges</a></li>
                 <li><a onClick={company} style={{cursor: "pointer"}}>Companies</a></li>
             </ul>
