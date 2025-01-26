@@ -22,6 +22,7 @@ function App() {
                     <Route path="/" element={<Hero />} />
                     {/* Company component for "/company" */}
                     <Route path="/company" element={<Company />} />
+                    <Route path="/colleges" element={<Colleges />} />
                 </Routes>
             </div>
 
@@ -34,7 +35,7 @@ function App() {
             <div style={{ display: `${allowSignup ? 'block' : 'none'}` }}>
                 <Signup />
             </div>
-            <Colleges />
+
         </>
     );
 }
