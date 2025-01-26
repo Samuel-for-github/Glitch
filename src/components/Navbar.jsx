@@ -21,8 +21,8 @@ const Navbar = () => {
                 <li><a href="/">Home</a></li>
                 <li><a href="">Contact Us</a></li>
                 <li><a href="">About Us</a></li>
-                <li><a onClick={colleges}>Colleges</a></li>
-                <li><a onClick={company}>Companies</a></li>
+                <li><a onClick={colleges} style={{cursor: "pointer"}}>Colleges</a></li>
+                <li><a onClick={company} style={{cursor: "pointer"}}>Companies</a></li>
             </ul>
             <div className="login">
                 <button onClick={()=>setAllowLogin(true)}>Login</button>
