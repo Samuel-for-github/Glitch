@@ -7,6 +7,7 @@ import LoginContext from "./context/LoginContext.js";
 import { useContext } from "react";
 import Company from './components/Company.jsx';
 import { Route, Routes } from "react-router-dom";
+import Colleges from './components/Colleges.jsx';
 
 function App() {
     const { allowLogin, allowSignup } = useContext(LoginContext);
@@ -33,6 +34,7 @@ function App() {
             <div style={{ display: `${allowSignup ? 'block' : 'none'}` }}>
                 <Signup />
             </div>
+            <Colleges />
         </>
     );
 }
