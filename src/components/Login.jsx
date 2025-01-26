@@ -17,10 +17,10 @@ const Login = () => {
             <label htmlFor="password">Password</label> <br/>
             <input type="password" id="password" name="password" placeholder="password" className="form-input"/><br/>
             <button type="submit" className="form-btn">LOGIN</button>
-            <p style={{color: 'black'}}>Already have an account?</p><span onClick={()=>{
+            <p style={{color: 'black',display:'inline'}}>Don't have an account?</p><a className="signupa" onClick={()=>{
                 setAllowLogin(false)
                 setAllowSignup(true)
-        }}>Sign Up</span>
+        }}>Sign Up</a>
         </form>
     </div>
   );
