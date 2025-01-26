@@ -18,10 +18,10 @@ const Signup = () => {
             <label htmlFor="password">Password</label> <br/>
             <input type="password" id="password" name="password" placeholder="password" className="Sform-input"/><br/>
             <button type="submit" className="Sform-btn">GET STARTED</button>
-            <p style={{color: 'black'}}>Don’t have an account?</p><span onClick={()=>{
+            <p style={{color: 'black', display:'inline'}}>Already have an account?</p><a className="logina" onClick={()=>{
             setAllowLogin(true)
             setAllowSignup(false)
-        }}>Login</span>
+        }}>Login</a>
         </form>
     </div>
   );

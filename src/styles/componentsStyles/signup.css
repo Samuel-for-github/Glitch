@@ -55,3 +55,18 @@
 .Sform-btn:hover {
   background-color: #bc6fa9;
 }
+
+.logina{
+  font-size: 20px;
+  display: inline;
+  margin-top: 20px;
+  margin-left: 8px;
+  text-decoration: underline;
+  text-align: center;
+  color: purple;
+  cursor: pointer;
+}
+
+.logina:hover {
+  color: red;
+}
